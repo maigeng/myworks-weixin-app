@@ -1,0 +1,9 @@
+<!--pages/mytext/mytext.wxml-->
+<button type="primary" bindtap="addtext">添加简历</button>
+<view class="title"><text>我的简历：</text></view>
+<text style="padding-left: 120px;padding-bottom: 10px;">点击文件名字可查看文件哦~</text>
+<view class="hr"></view>
+<view class="text" bindtap="oppentext">
+  <text>{{mytxtname}}</text>
+</view>
+

@@ -1,0 +1,9 @@
+{
+  "usingComponents": {},
+
+
+  "navigationBarTitleText": "更多",
+  "navigationBarTextStyle":"black",
+  "backgroundTextStyle":"dark",
+  "navigationBarBackgroundColor": "#37C2BC"
+}

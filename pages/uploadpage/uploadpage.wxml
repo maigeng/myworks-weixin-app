@@ -1,0 +1,13 @@
+<!-- pages/ques1/upload.wxml -->
+<view class="uploadpage">
+				<image src="/image/t1.png" mode="widthFix" />
+				<view class="title">上传结果</view>
+				<view class="imgList">
+				
+								<view wx:for="{{imgList}}" wx:key="index" wx:for-item="value" wx:for-index="key">
+									<image src="{{value}}" mode="widthFix"></image>
+								</view>
+								<view class="addimg" bind:tap="chooseImage">+</view>
+				</view>
+		
+</view>

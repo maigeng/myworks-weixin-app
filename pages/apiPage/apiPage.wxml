@@ -1,0 +1,142 @@
+<!--pages/apiPage/apiPage.wxml-->
+<view>
+
+<view class="item">
+  <button bind:tap="a1">请求服务器数据API</button>
+</view>
+<view class="item">
+  <button bind:tap="a2">wx.uploadFile文件上传API</button>
+</view>
+
+<view class="item">
+  <button bindtap="downloadFile">wx.downloadFile文件下载API</button>
+</view>
+
+<view class="item">
+  <button >WebSocket会话API</button>
+</view>
+
+<view class="item">
+  <button bind:tap="chooseImage">wx.chooseImage选择图片API</button>
+</view>
+
+<view class="item">
+  <button bind:tap="previewImage">wx.previewImage预览图片API</button>
+</view>
+
+<view class="item">
+  <button bindtap="getImageInfo">wx.getImageInfo获得图片信息API</button>
+</view>
+
+<view class="item">
+  <button bindtap="saveImageToPhotosAlbum">wx.saveImageToPhotosAlbum保存图片到相册API</button>
+</view>
+
+<view class="item">
+  <button bind:tap="compressImage">wx.compressImage压缩图片API</button>
+</view>
+
+<view class="item">
+  <button bindtap="chooseMessageFile">wx.chooseMessageFile从客户端会话选择文件API</button>
+</view>
+
+<view class="item">
+  <button bindtap="saveFile">wx.saveFile保存文件到本地API</button>
+</view>
+
+<view class="item">
+  <button bind:tap="getSavedFileList">wx.getSavedFileList获取本地文件列表API</button>
+</view>
+
+<view class="item">
+  <button bindtap="getSavedFileInfo">wx.getSavedFileInfo获取本地文件信息API</button>
+</view>
+
+<view class="item">
+  <button bind:tap="removeSavedFile">wx.removeSavedFile删除本地文件API</button>
+</view>
+
+<view class="item">
+  <button bind:tap="openDocument">wx.openDocument打开文档API</button>
+</view>
+
+<view class="item">
+  <button bindtap="getFileInfo">wx.getFileInfo获取文件信息API</button>
+</view>
+
+<view class="item">
+  <button bind:tap="setStorage">wx.setStorage数据缓存到本地API</button>
+</view>
+
+<view class="item">
+  <button bind:tap="getStorage">wx.getStorage获取本地缓存数据API</button>
+</view>
+
+<view class="item">
+  <button bindtap="clearStorage">wx.clearStorage移除和清理本地缓存数据API</button>
+</view>
+
+<view class="item">
+  <button bind:tap="getLocation">wx.getLocation获得当前位置API</button>
+</view>
+
+<view class="item">
+  <button bind:tap="chooseLocation">wx.chooseLocation选择位置API</button>
+</view>
+
+<view class="item">
+  <button bind:tap="openLocation">wx.openLocation打开位置API</button>
+</view>
+
+
+<view class="item">
+  <button bind:tap="getSystemInfo">wx.getSystemInfo获取系统信息API</button>
+</view>
+
+<view class="item">
+  <button bind:tap="getNetworkType">wx.getNetworkType获取网络状态API</button>
+</view>
+
+<view class="item">
+  <button bind:tap="onAccelerometerChange">加速度计API</button>
+</view>
+
+<view class="item">
+  <button bind:tap="compass">罗盘API</button>
+</view>
+
+<view class="item">
+  <button bind:tap="makePhoneCall">wx.makePhoneCall拨打电话API</button>
+</view>
+
+<view class="item">
+  <button bind:tap="scanCode">wx.scanCode扫码API</button>
+</view>
+
+
+<view class="item">
+  <button bind:tap="capture">截屏API</button>
+</view>
+
+
+<view class="item">
+  <button bindtap="login">wx.login登录API</button>
+</view>
+
+<view class="item">
+  <button bindtap="getUserInfo">wx.getUserInfo获取用户信息API</button>
+</view>
+
+<view class="item">
+  <button bind:tap="authorize">wx.authorize授权API</button>
+</view>
+
+
+<view class="item">
+  <button bindtap="requestPayment">wx.requestPayment微信支付API</button>
+</view>
+
+<view class="item">
+  <navigator url="../index/index" open-type="navigate" hover-class="navigator-hover">去首页</navigator>
+</view>
+</view>

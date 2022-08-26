@@ -1,0 +1,127 @@
+<view class="head">
+  <view class="account">
+    <view style="font-size:25px;font-weight:bold">{{myname}}</view>
+    <view>
+      <navigator url="../me/me" open-type="navigate" hover-class="navigator-hover">
+        <image src="../../image/mycenter/bj.png" style="width:25px;height:25px;border-radius: 100%;"></image>
+        我的在线简历
+      </navigator>
+    </view>
+  </view>
+  <view class="img">
+    <image src="{{mytx}}" style="width:70px;height:70px;border-radius: 100%;"></image>
+  </view>
+</view>
+<view class="content">
+    <view class="order">
+        <view class="desc">
+          <navigator url="../me/me" open-type="navigate" hover-class="navigator-hover">
+           <view><image src="../../image/mycenter/zxjl.png" style="width:35px;height:35px;"></image></view>
+           <view>在线简历</view>
+           </navigator> 
+        </view>
+        <view class="desc">
+          <navigator url="../mytext/mytext" open-type="navigate" hover-class="navigator-hover">
+           <view><image src="../../image/mycenter/fjjl.png" style="width:35px;height:35px;"></image></view>
+           <view>附件简历</view>
+          </navigator> 
+        </view>
+        <view class="desc">
+           <view><image src="../../image/mycenter/wdms.png" style="width:35px;height:35px;"></image></view>
+           <view>我的面试</view>
+        </view>
+        <view class="desc">
+           <view><image src="../../image/mycenter/zwdy.png" style="width:35px;height:35px;"></image></view>
+           <view>职位订阅</view>
+        </view>
+    </view>
+    <view class="white"></view>
+ <view class="qzzs">
+  <view class="title">
+    <view class="qzzsname">
+        <view>求职助手</view>
+    </view>
+    <view class="right">
+      <text class="opr">更多</text>>
+    </view>
+  </view>
+  <view>
+  <scroll-view scroll-x="true" style="width: 100%;">
+  <view class="nn">
+    <view class="wendan">
+      <view class="word">
+        <view style="font-size: 15px;font-weight: 600;">简历刷新</view>
+        <view style="font-size: 12px;">提升简历活跃</view>
+      </view>
+      <view class="imgg">
+        <image src="../../image/mycenter/jlsx.png" style="width:40px;height:40px;  margin-right: 10px;"></image>
+      </view>
+      </view>
+      <view class="wendan">
+      <view class="word">
+        <view style="font-size: 15px;font-weight: 600;">职业测评</view>
+        <view style="font-size: 12px;">帮助职业定位</view>
+      </view>
+      <view class="imgg">
+        <image src="../../image/mycenter/zycp.png" style="width:40px;height:40px;  margin-right: 10px;"></image>
+      </view>
+      </view>
+      <view class="wendan">
+      <view class="word">
+        <view style="font-size: 15px;font-weight: 600;">热门视频</view>
+        <view style="font-size: 12px;">教你职场技巧</view>
+      </view>
+      <view class="imgg">
+        <image src="../../image/mycenter/sp.png" style="width:40px;height:40px;  margin-right: 10px;"></image>
+      </view>
+      </view>
+    </view>
+   </scroll-view>
+</view>
+  </view>
+
+   <view class="item">
+<view class="icon"><image src="../../image/mycenter/wdsc.png" style="width:22px;height:21px;"></image></view>
+    <view class="itemName">
+        <view>我的收藏</view>
+    </view>
+    <view class="right">></view>
+  </view>
+
+    <view class="item">
+      <view class="icon"><image src="../../image/mycenter/wdfx.png" style="width:22px;height:21px;"></image></view>
+        <view class="itemName">
+        <view>我的发现</view>
+      </view>
+      <view class="right" >></view>
+    </view>
+
+     <view class="item">
+        <view class="icon"><image src="../../image/mycenter/yssz.png" style="width:22px;height:21px;"></image></view>
+            <view class="itemName">
+            <navigator url="../privacy/privacy" open-type="navigate" hover-class="navigator-hover">    
+                <view>隐私设置</view>
+              </navigator>         
+            </view>
+            <view class="right">></view>  
+  </view>
+
+     <view class="item">
+      <view class="icon"><image src="../../image/mycenter/wzaqz.png" style="width:22px;height:21px;"></image></view>
+          <view class="itemName">
+              <view>无障碍求职</view>
+          </view>
+          <view class="right">></view>
+  </view>
+
+  <view class="hr"></view>
+     <view class="item">
+        <view class="icon"><image src="../../image/mycenter/gd.png" style="width:22px;height:21px;"></image></view>
+            <view class="itemName">
+            <navigator url="/pages/addition/addition">
+            <view>更多</view>
+            </navigator>
+            </view>
+            <view class="right">></view>
+  </view>
+</view>

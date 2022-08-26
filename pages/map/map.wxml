@@ -1,0 +1,47 @@
+<!--pages/map/map.wxml-->
+<!-- <text>pages/map/map.wxml</text> -->
+
+<map id="map" longitude="113.324520" latitude="23.099994" scale="14" controls="{{controls}}" bindcontroltap="controltap" markers="{{markers}}" bindmarkertap="markertap" polyline="{{polyline}}" bindregionchange="regionchange" show-location style="width: 100%; height: 300px;"></map>
+
+<view style="margin-top: 10px;">
+  <view style="padding: 10px; background-color: white; margin-bottom: 10px; "> 
+        
+        <view style="display: flex; margin: 10px;">
+          <view style="font-weight: 900; font-size:50rpx">发型设计师</view>
+          <view style="margin-left: auto;"> <text style="color: rgb(18,173,169); ">5-8K</text> </view>
+        </view>
+        <view style=" margin: 10px; font-size:30rpx">欢聚集团1000-9999人已上市</view>
+        <view style="display: flex;flex-direction: row;  margin: 10px;">
+            <text style="background-color:rgb(245,245,245);margin-right: 10px; padding: 5px;">1-3年</text>
+            <text style="background-color:rgb(245,245,245);margin-right: 10px;padding: 5px;">经验不限</text>
+            <text style="background-color:rgb(245,245,245);margin-right: 10px;padding: 5px;">网络协议</text>
+        </view>
+        <view style="display: flex; align-items: center;  margin: 5px;">
+          <view>
+            <image src="/image/风景图.jpg" style="float: left; width: 25px;height: 25px; border-radius: 50%; margin-right: 10px; margin-top: 10px"></image>
+            <text style="line-height: 50px;"> 林先生 HR</text>
+          </view>
+            <view style="margin-left: auto;">广州</view>
+          </view>
+  </view>
+  <view style="padding: 10px; background-color: white; margin-bottom: 10px; "> 
+        <view style="display: flex; margin: 10px;">
+          <view style="font-weight: 900; font-size:50rpx">化妆师-造型师 兼职</view>
+          <view style="margin-left: auto;"> <text style="color: rgb(18,173,169); ">20-30元/时</text> </view>
+        </view>
+        <view style=" margin: 10px; font-size:30rpx">小象馆  20-99人</view>
+        <view style="display: flex;flex-direction: row;  margin: 10px;">
+            <text style="background-color:rgb(245,245,245);margin-right: 10px; padding: 5px;">1-3年</text>
+            <text style="background-color:rgb(245,245,245);margin-right: 10px;padding: 5px;">学历不限</text>
+            <text style="background-color:rgb(245,245,245);margin-right: 10px;padding: 5px;">日常彩妆</text>
+            <text style="background-color:rgb(245,245,245);margin-right: 10px;padding: 5px;">全职兼职均可</text>
+        </view>
+        <view style="display: flex; align-items: center;  margin: 5px;">
+          <view>
+            <image src="/image/猫.jpg" style="float: left; width: 25px;height: 25px; border-radius: 50%; margin-right: 10px; margin-top: 10px"></image>
+            <text style="line-height: 50px;"> 任女士 运营专员</text>
+          </view>
+            <view style="margin-left: auto;">顺义区</view>
+          </view>
+      </view>
+</view>

@@ -1,0 +1,44 @@
+<!--pages/result/result.wxml-->
+<view class="result">
+	<view class="res">
+		<view>
+			{{resText}}
+		</view>
+		<image src="{{imgUrl}}" mode="widthFix" />
+	</view>
+	<view class="tag">
+		<h1>
+			<image src="/image/star.jpg" mode="widthFix"/>
+			<span>你需要</span>
+		</h1>
+		<view class="list1">
+			<p>{{arr[0]}}</p>
+			<p>{{arr[1]}}</p>
+		</view>
+	</view>
+	<view class="tag">
+		<h1>
+			<image src="/image/star.jpg" />
+			<span>注意</span>
+		</h1>
+		<view class="list2">
+			<p>{{arr[2]}}</p>
+			<p>{{arr[3]}}</p>
+		</view>
+	</view>
+	<p class="title">匹配其他人设，定制你的群面</p>
+	<view class="btn">
+		<button open-type="share" type="warn" size="mini">分享</button>
+
+		<view bindtap="toGZH">去上传结果啦</view>
+	</view>
+	<p class="tips">
+		小tips:
+ 分享2位好友可旁听群面，4位好友可直接参与群面 <br/>
+| 点击参与定制化群面按钮，回复【群面】即可报名哦~
+	</p>
+	<view class="footer">
+		<span>快来测试吧！</span>
+	</view>
+</view>
+

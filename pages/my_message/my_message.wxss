@@ -1,0 +1,19 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #aaa;
+}
+
+.userinfo-avatar {
+  overflow: hidden;
+  width: 90rpx;
+  height: 90rpx;
+  margin: 0rpx;
+  border-radius: 10%;
+}
+
+.usermotto {
+  margin-top: 5px;
+}

@@ -1,0 +1,73 @@
+/* pages/me/me.wxss */
+/*头像*/
+.head{
+  height:120px;
+  background-color:white; 
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.img{
+  margin-right: 10px;
+}
+.account{
+  width: 70%;
+  color: black;
+  margin-left: 25px;
+}
+.nav{
+ width:15px;
+ color: black;
+}
+.content{
+  background-color: black;
+  height: 500px;
+}
+/*求职状态*/
+.hr{
+  height: 2px;
+  width: 90%;
+  background-color: black;
+  opacity: 0.2;
+  margin-left: 20px;
+}
+.item{
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  align-items: center;
+  margin-left: 25px;
+}
+.icon{
+  margin-left:10px ;
+  width: 50px;
+  text-align: center;
+}
+.itemName{
+  width: 40%;
+  font-size: 18px;
+}
+.right{
+  width: 40%;
+  height:20px;
+  text-align: right;
+  font-size: 15px;
+}
+/*求职状态*/
+.item2{
+  background-color: #ffffff;
+  height: 60px;
+  align-items: center;
+  margin-left: 25px;
+  margin-top: 15px;
+}
+.mytxt{
+  margin-left: 8px;
+  height: 25px;
+  width:350px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display:block;
+  white-space: nowrap;
+}

@@ -1,0 +1,126 @@
+<!--pages/find_job/find_job.wxml-->
+<!-- <text>pages/find_job/find_job.wxml</text> -->
+<view class="top">
+  <view class="search_input">
+    <navigator url="#">
+      <image src="/image/搜索.svg"></image>
+      <view>搜索职位、公司</view>
+    </navigator>
+  </view>
+</view>
+
+<view >
+  <scroll-view class="scroll_x_box" scroll-x="true">
+    <view class="hot_box" wx:for="{{hotList}}">
+      <view class="dui_qi">
+        <navigator url="{{item.url}}">
+        <image src="{{item.path}}" class="hot_image"></image>
+        </navigator>
+        <VIEW >{{item.name}}</VIEW>
+      </view>
+    </view>
+  </scroll-view>
+</view>
+
+<view style="width: 100%;height: 120px; background-color: white; margin-bottom: 5px;">
+  <view class="advertise">
+  <navigator url="/pages/ques0/ques0">
+    <image src="/image/bg11.png"  mode="scaleToFill"></image>
+  </navigator>  
+  </view>
+</view>
+
+
+
+  <view class="advise">
+
+    <view >
+      <text style="font-size:50rpx">职位定位</text>
+      <text style="margin-left: 5px;">无需大海捞针找工作</text>
+      <view style="background-color:#FEF5E8; color:#F8A224 ;">根据地位/职位类型等推荐更精准职位</view>
+    </view>
+
+    <view style="margin-left: auto; " >
+    <navigator url="/pages/add_intention/add_intention">
+      <image src="/image/icon_添加.svg" style="width: 25px; height: 25px; padding-left: 7px;"></image>
+    </navigator>
+      <view style="padding-right: 20px; font-size:20rpx">添加意向</view>
+    </view>
+    
+  </view>
+  <view class="line"></view>
+<block> 
+  
+  <!-- 列表 -->
+  <view class="job_list">
+  <scroll-view scroll-y="true" style="height: auto;" >
+    <view style="padding: 10px; background-color: white; margin-bottom: 10px; "> 
+        
+          <view style="display: flex; margin: 10px;">
+            <view style="font-weight: 900; font-size:50rpx">发型设计师</view>
+            <view style="margin-left: auto;"> <text style="color: rgb(18,173,169); ">5-8K</text> </view>
+          </view>
+          <view style=" margin: 10px; font-size:30rpx">欢聚集团1000-9999人已上市</view>
+          <view style="display: flex;flex-direction: row;  margin: 10px;">
+              <text style="background-color:rgb(245,245,245);margin-right: 10px; padding: 5px;">1-3年</text>
+              <text style="background-color:rgb(245,245,245);margin-right: 10px;padding: 5px;">经验不限</text>
+              <text style="background-color:rgb(245,245,245);margin-right: 10px;padding: 5px;">网络协议</text>
+          </view>
+          <view style="display: flex; align-items: center;  margin: 5px;">
+            <view>
+              <image src="/image/风景图.jpg" style="float: left; width: 25px;height: 25px; border-radius: 50%; margin-right: 10px; margin-top: 10px"></image>
+              <text style="line-height: 50px;"> 林先生 HR</text>
+            </view>
+              <view style="margin-left: auto;">广州</view>
+            </view>
+    </view>
+  
+
+      <!-- 测试 -->
+      <view style="padding: 10px; background-color: white; margin-bottom: 10px; "> 
+        <view style="display: flex; margin: 10px;">
+          <view style="font-weight: 900; font-size:50rpx">化妆师-造型师 兼职</view>
+          <view style="margin-left: auto;"> <text style="color: rgb(18,173,169); ">20-30元/时</text> </view>
+        </view>
+        <view style=" margin: 10px; font-size:30rpx">小象馆  20-99人</view>
+        <view style="display: flex;flex-direction: row;  margin: 10px;">
+            <text style="background-color:rgb(245,245,245);margin-right: 10px; padding: 5px;">1-3年</text>
+            <text style="background-color:rgb(245,245,245);margin-right: 10px;padding: 5px;">学历不限</text>
+            <text style="background-color:rgb(245,245,245);margin-right: 10px;padding: 5px;">日常彩妆</text>
+            <text style="background-color:rgb(245,245,245);margin-right: 10px;padding: 5px;">全职兼职均可</text>
+        </view>
+        <view style="display: flex; align-items: center;  margin: 5px;">
+          <view>
+            <image src="/image/猫.jpg" style="float: left; width: 25px;height: 25px; border-radius: 50%; margin-right: 10px; margin-top: 10px"></image>
+            <text style="line-height: 50px;"> 任女士 运营专员</text>
+          </view>
+            <view style="margin-left: auto;">顺义区</view>
+          </view>
+      </view>
+      <view style="padding: 10px; background-color: white; margin-bottom: 10px; "> 
+        <view style="display: flex; margin: 10px;">
+          <view style="font-weight: 900; font-size:50rpx">星巴克咖啡招聘咖啡师</view>
+          <view style="margin-left: auto;"> <text style="color: rgb(18,173,169); ">20-25元/时</text> </view>
+        </view>
+        <view style=" margin: 10px; font-size:30rpx">星巴克咖啡 10000人以上 已上市</view>
+        <view style="display: flex;flex-direction: row;  margin: 10px;">
+            <text style="background-color:rgb(245,245,245);margin-right: 10px; padding: 5px;">经验不限</text>
+            <text style="background-color:rgb(245,245,245);margin-right: 10px;padding: 5px;">学历不限</text>
+            <text style="background-color:rgb(245,245,245);margin-right: 10px;padding: 5px;">夜班补助</text>
+            <text style="background-color:rgb(245,245,245);margin-right: 10px;padding: 5px;">兼职</text>
+            <text style="background-color:rgb(245,245,245);margin-right: 10px;padding: 5px;">团建聚餐</text>
+        </view>
+        <view style="display: flex; align-items: center;  margin: 5px;">
+          <view>
+            <image src="/image/员工.png" style="float: left; width: 25px;height: 25px; border-radius: 50%; margin-right: 10px; margin-top: 10px"></image>
+            <text style="line-height: 50px;"> 邹明 店经理</text>
+          </view>
+            <view style="margin-left: auto;">北京</view>
+          </view>
+      </view>
+        
+      <!-- 结束 --> 
+    </scroll-view>
+  </view>
+</block>
+

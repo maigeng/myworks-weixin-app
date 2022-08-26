@@ -1,0 +1,48 @@
+<!--pages/information/information.wxml-->
+<view class="head">
+  <view class="account">
+       <text style="font-size:22px">头像</text>
+        <view style="font-size:13px;color: orange">
+          <icon type="info" size="20" color="orange"/>使用真实头像更容易得到BOSS的青睐
+        </view>
+  </view>
+  <view class="img" bindtap="tx">
+    <image src="{{aa}}" style="width:70px;height:70px;border-radius: 100%;"></image>
+  </view>
+</view>
+<view class="hr"></view>
+<view class="item">
+    <view class="name">我的姓名：</view>
+    <view class="val"><input bindinput="userNameInputAction" name="name" type="text"/></view>
+</view>
+<view class="hr"></view>
+<view class="item">
+    <view class="name">我的性别：</view>
+    <label>
+      <radio-group class="radio-group" bindchange="radioChange">
+        <radio value="M" />男
+        <radio value="F" checked/>女
+      </radio-group>
+    </label>
+</view>
+<view class="hr"></view>
+<view class="item">
+    <view class="name">出生日期：</view>
+    <picker mode="date" value="{{date}}" start="1922-01-01" end="2022-01-01" bindchange="bindDateChange">
+    <view class="picker"> {{date}} </view>
+     </picker>
+</view>
+<view>
+  <icon type="warn" size="10" color="red" />
+  <text style="font-size: 10px;color: red;">根据《劳动法》《未成年人保护法》等法律规定，申请注册时，请选择与你身份证一致的真实年龄并确保你已年满16周岁</text>
+</view>
+<view class="hr"></view>
+<view class="item">
+    <view class="name">我的地址：</view>
+    <picker mode="region" bindchange="bindRegionChange" value="{{region}}" custom-item="{{customItem}}">
+      <view class="picker">{{region[0]}}，{{region[1]}}，{{region[2]}}</view>
+    </picker>
+    <image src="../../image/information/wz.png" style="width:25px;height:25px;border-radius: 100%;"  bindtap="dz"></image>
+</view>
+<view class="dz" bindtap="wz"><text>{{weizhi}}</text></view>
+<view class="hr" style="margin-top: 15px;"></view>

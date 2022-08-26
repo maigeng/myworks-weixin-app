@@ -1,0 +1,20 @@
+/* pages/privacy/privacy.wxss */
+.item{
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  align-items: center;
+  margin-left: 25px;
+  padding-top:10px;
+  line-height:50px;
+}
+.itemName{
+  width: 60%;
+  font-size: 18px;
+  font-weight:bold;
+}
+.right{
+  position:absolute;
+  right:30px;
+}

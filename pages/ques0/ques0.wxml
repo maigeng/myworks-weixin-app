@@ -1,0 +1,4 @@
+<!--index.wxml-->
+<view class="container">
+  <span bindtap="go">开始测试</span>
+</view>

@@ -1,0 +1,22 @@
+<!--pages/communication/communication.wxml-->
+<view style="position: absolute; width: 750rpx; background: F5F5F5; height: 1072rpx; display: block; box-sizing: border-box; left: 2rpx; top: 0rpx">
+  <image style="position: relative; width: 124rpx; height: 124rpx; display: inline-block; box-sizing: border-box; left: 15rpx; top: 57rpx" src="../../image/bar/touxiang.png" />
+</view>
+
+<view style="position: absolute; width: 750rpx; background: #ffffff; height: 136rpx; display: block; box-sizing: border-box; left: 2rpx; top: 1072rpx">
+  <image style="position: absolute; width: 84rpx; height: 84rpx; display: inline-block; box-sizing: border-box; left: 26rpx; top: 26rpx" src="../../image/bar/send.png" />
+  <image style="position: absolute; width: 184rpx; height: 84rpx; display: inline-block; box-sizing: border-box; left: 560rpx; top: 26rpx" src="../../image/bar/add.png" />
+
+  <view class="view-contain-ti" style="position: relative; left: 100rpx; top: -15rpx; width: 396rpx; height: 84rpx; display: flex; box-sizing: border-box">
+    <text class="text-ti" style="position: absolute; left: 78rpx; top: 6rpx">请输入聊天文字</text>
+    <textarea class="input1" style="width: 292rpx; height: 32rpx; display: block; box-sizing: border-box"></textarea>
+</view>
+
+<view class="lang" style="width: 570rpx; height: 118rpx; display: block; box-sizing: border-box; position: relative; left: 140rpx; top: -218rpx">
+  <text style="position: relative; left: 15rpx; top: 18rpx">想与你沟通一下，我们现在招的这个岗位，现在方便吗？</text>
+  </view>
+</view>
+
+
+
+

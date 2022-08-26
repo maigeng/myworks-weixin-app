@@ -1,0 +1,61 @@
+/* pages/information/information.wxss */
+/*头像*/
+.head{
+  height:100px;
+  background-color:white; 
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.img{
+  margin-right: 10px;
+}
+.account{
+  width: 70%;
+  color: black;
+  margin-left: 25px;
+}
+.nav{
+ width:15px;
+ color: black;
+}
+.content{
+  background-color: black;
+  height: 500px;
+}
+.hr{
+  height: 2px;
+  width: 90%;
+  background-color: black;
+  opacity: 0.2;
+  margin-left: 20px;
+}
+/*名字*/
+.item{
+  padding-top: 15px;
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 15px;
+  margin-left: 30px;
+}
+.name{
+  text-align: right;
+  width: 100px;
+  height: 28px;
+  font-size: 18px;
+}
+.val{
+  width: 150px;
+  height: 28px;
+  border:1px solid black;
+  border-radius: 10px;
+  font-size:18px;
+}
+/*地址*/
+.dz{
+  width: 350px;
+  height: 28px;
+  border:1px solid black;
+  border-radius: 10px;
+  font-size:12px;
+}

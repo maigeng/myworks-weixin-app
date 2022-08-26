@@ -1,0 +1,30 @@
+/* pages/communication/communication.wxss */
+.lang{
+  position: relative;
+  border-radius: 15px;
+  margin-top: -480px;
+  text-align:left;
+  background-color: rgb(245, 245, 245);
+}
+
+.view-contain-ti {
+  display: flex;
+  height: 40px;
+  margin: 20px;
+  border: 3rpx solid #000000;
+  border-radius: 10rpx;
+}
+
+.text-ti {
+  position: absolute;
+  font-size: 12px;
+  background: white;
+  margin: -10px 0 0 10px;
+  padding: 0 5px;
+  color: rgb(144, 147, 167);
+}
+
+.input1 {
+  margin:  auto 10px;
+}
+

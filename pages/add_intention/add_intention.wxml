@@ -1,0 +1,28 @@
+<!--pages/add_intention/add_intention.wxml-->
+<!-- <text>pages/add_intention/add_intention.wxml</text> -->
+
+<view class="out ">
+    <text style="font-weight: 900; font-size:50rpx">你想找到什么工作</text>
+    <view style="margin-top: 10px;">需要你提供以下信息，用于为你提供推荐岗位</view>
+</view>
+<view style="display: flex;flex-direction:column; justify-content:center;align-items:center; margin-top: 10px;">
+  <radio-group class="radio-group" bindchange="radioChange">
+    <radio value="student" />学生
+    <radio value="worker" checked/>职场人
+    <!-- <radio value="BRA" disabled/>巴西 -->
+
+</radio-group>
+
+  <checkbox-group bindchange="checkboxChange" style="padding: 20px 10px;">
+    <checkbox value="CUM"/>计算机专业
+    <checkbox value="ART" checked="true"/>美术类
+    <checkbox value="ART" checked="true"/>土木工程
+    <checkbox value="ART" checked="true"/>网安
+    <checkbox value="ART" checked="true"/>通信
+
+</checkbox-group>
+</view>
+
+<view style="display: flex;justify-content: center;">
+<button bindtap="#" style="width: 90%; background: rgb(155,225,222); position: fixed; bottom: 0; margin-bottom: 10px; color:rgb(255,255,255) ;" >点击跳转</button>
+</view>

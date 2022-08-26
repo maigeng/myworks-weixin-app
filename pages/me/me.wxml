@@ -1,0 +1,47 @@
+<!--pages/me/me.wxml-->
+<view class="head">
+  <view class="account">
+    <view>
+      <navigator url="../information/information" open-type="navigate" hover-class="navigator-hover">
+       <text style="font-size:25px;font-weight:600">{{myname}}</text>
+        <image src="../../image/me/bj.png" style="width:25px;height:25px;"></image>
+        <view style="font-size:15px;">23届应届生·21岁·本科生</view>
+      </navigator>
+    </view>
+  </view>
+  <view class="img">
+    <image src="{{mytx}}" style="width:70px;height:70px;border-radius: 100%;"></image>
+  </view>
+</view>
+<view class="hr"></view>
+<view class="item" bindtap="qzzt">
+    <view class="itemName">
+        <view>求职状态</view>
+    </view>
+      <view class="right" >{{aa}}></view>
+    </view>
+<view class="hr"></view>
+<view class="item2">
+  <view class="itemName">
+        <view>求职进度</view>
+    </view>
+    <view>
+     <progress percent="80" active show-info/>
+    </view>
+</view>
+<view class="hr"></view>
+<view class="item" >
+    <view class="itemName" >
+        <view>个人优势</view>
+    </view>
+   
+   <view class="right" >
+     <navigator url="../advantage/advantage" open-type="navigate" hover-class="navigator-hover">
+        <image src="../../image/me/bianji.png" style="width:20px;height:20px;"></image>
+      </navigator>  
+    </view>
+</view>
+<view class="mytxt" bindtap="grys">
+  <text>{{mytxt}}</text>
+</view>
+<view class="hr"></view>

@@ -1,0 +1,37 @@
+<!--pages/privacy/privacy.wxml-->
+<form bindsubmit="Submit" bindreset="Reset">
+<view class="item">
+    <view class="itemName">对BOSS隐藏简历</view>
+    <view  class="right" >
+      <switch type="switch" checked/>
+    </view>
+</view>
+<view class="item">
+    <view class="itemName">对猎头等经纪人隐藏简历</view>
+    <view  class="right" >
+      <switch type="switch" checked/>
+    </view>
+</view>
+<view class="item">
+    <view class="itemName">接收新消息通知</view>
+    <view  class="right" >
+      <switch type="checkbox" checked/>
+    </view>
+</view>
+<view class="item">
+    <view class="itemName">提醒我登录的时间</view>
+    <view  class="right" >
+      <picker mode="time" value="{{time}}" start="05:01" end="23:01" bindchange="Time">
+    <view class="picker">{{time}}</view>
+  </picker>
+    </view>
+</view>
+<view style="margin:10px;">
+    <view style="font-weight:bold;margin-left: 20px;">提示声音</view>
+    <slider name="slider" show-value ></slider>
+  </view>
+  <view class="anniu">
+    <button formType="submit" type="primary" style='margin-top: 20px;'>提交</button>
+    <button formType="reset" style='margin-top: 20px;'>重制</button>
+  </view>
+</form>

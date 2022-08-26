@@ -1,0 +1,21 @@
+/* pages/mytext/mytext.wxss */
+.title{
+  font-size: 25px;
+  padding-top: 20px;
+  padding-left: 15px;
+  padding-bottom: 10px;
+}
+.text{
+  font-size: 20px;
+  padding-top: 5px;
+  padding-left: 30px;
+
+}
+.hr{
+  height: 2px;
+  width: 80%;
+  background-color: black;
+  opacity: 0.2;
+  margin-left: 20px;
+  margin-top: 10px;
+}

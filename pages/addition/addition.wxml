@@ -1,0 +1,19 @@
+<!--pages/addition/addition.wxml-->
+<video id="myVideo" src="https://videocdn.taobao.com/oss/ali-video/d6bc4ae3eb3c866bee9903d47d1210c6/video.mp4"
+  controls="{{false}}" event-model="bubble" style="width:100%">
+  <cover-view class="controls">
+    <cover-view class="play" bindtap="play">
+      <cover-image class="img" src="/image/play.png" />
+    </cover-view>
+    <cover-view class="pause" bindtap="pause">
+      <cover-image class="img" src="/image/pause.png" />
+    </cover-view>
+    <!-- <cover-view class="time">00:00</cover-view> -->
+  </cover-view>
+</video>
+
+<view>
+  <navigator url="/pages/apiPage/apiPage">
+    其他API展示
+  </navigator>
+</view>

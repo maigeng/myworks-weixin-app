@@ -1,0 +1,85 @@
+<!--pages/student_area/student_area.wxml-->
+<!-- <text>pages/student_area/student_area.wxml</text> -->
+
+<view style="display: flex;background-color: white;">
+    <view class="search_block"></view>
+</view>
+
+<view class="content">
+   <view class="loginTitle">
+     <view class="{{currentTab==0?'select':'default'}}" data-current="0" bindtap="switchNav">实习</view>
+     <view class="{{currentTab==1?'select':'default'}}" data-current="1" bindtap="switchNav">校招</view>
+   </view>
+   <view class="hr"></view>
+   <swiper current="{{currentTab}}"style="height:{{winHeight}}px">
+      <swiper-item>
+      <view style="margin-top: 10px;">
+          <view style="padding: 10px; background-color: white; margin-bottom: 10px; "> 
+          <view style="display: flex; margin: 10px;">
+            <view style="font-weight: 900; font-size:50rpx">化妆师-造型师 兼职</view>
+            <view style="margin-left: auto;"> <text style="color: rgb(18,173,169); ">20-30元/时</text> </view>
+          </view>
+          <view style=" margin: 10px; font-size:30rpx">小象馆  20-99人</view>
+          <view style="display: flex;flex-direction: row;  margin: 10px;">
+              <text style="background-color:rgb(245,245,245);margin-right: 10px; padding: 5px;">1-3年</text>
+              <text style="background-color:rgb(245,245,245);margin-right: 10px;padding: 5px;">学历不限</text>
+              <text style="background-color:rgb(245,245,245);margin-right: 10px;padding: 5px;">日常彩妆</text>
+              <text style="background-color:rgb(245,245,245);margin-right: 10px;padding: 5px;">全职兼职均可</text>
+          </view>
+          <view style="display: flex; align-items: center;  margin: 5px;">
+            <view>
+              <image src="/image/猫.jpg" style="float: left; width: 25px;height: 25px; border-radius: 50%; margin-right: 10px; margin-top: 10px"></image>
+              <text style="line-height: 50px;"> 任女士 运营专员</text>
+            </view>
+              <view style="margin-left: auto;">顺义区</view>
+            </view>
+        </view>
+      </view>  
+      </swiper-item>
+      <swiper-item>
+        <view style="margin-top: 10px;">
+          <view style="padding: 10px; background-color: white; margin-bottom: 10px; "> 
+          <view style="display: flex; margin: 10px;">
+            <view style="font-weight: 900; font-size:50rpx">化妆师-造型师 兼职</view>
+            <view style="margin-left: auto;"> <text style="color: rgb(18,173,169); ">20-30元/时</text> </view>
+          </view>
+          <view style=" margin: 10px; font-size:30rpx">小象馆  20-99人</view>
+          <view style="display: flex;flex-direction: row;  margin: 10px;">
+              <text style="background-color:rgb(245,245,245);margin-right: 10px; padding: 5px;">1-3年</text>
+              <text style="background-color:rgb(245,245,245);margin-right: 10px;padding: 5px;">学历不限</text>
+              <text style="background-color:rgb(245,245,245);margin-right: 10px;padding: 5px;">日常彩妆</text>
+              <text style="background-color:rgb(245,245,245);margin-right: 10px;padding: 5px;">全职兼职均可</text>
+          </view>
+          <view style="display: flex; align-items: center;  margin: 5px;">
+            <view>
+              <image src="/image/猫.jpg" style="float: left; width: 25px;height: 25px; border-radius: 50%; margin-right: 10px; margin-top: 10px"></image>
+              <text style="line-height: 50px;"> 任女士 运营专员</text>
+            </view>
+              <view style="margin-left: auto;">顺义区</view>
+            </view>
+        </view>
+        <view style="padding: 10px; background-color: white; margin-bottom: 10px; "> 
+          <view style="display: flex; margin: 10px;">
+            <view style="font-weight: 900; font-size:50rpx">化妆师-造型师 兼职</view>
+            <view style="margin-left: auto;"> <text style="color: rgb(18,173,169); ">20-30元/时</text> </view>
+          </view>
+          <view style=" margin: 10px; font-size:30rpx">小象馆  20-99人</view>
+          <view style="display: flex;flex-direction: row;  margin: 10px;">
+              <text style="background-color:rgb(245,245,245);margin-right: 10px; padding: 5px;">1-3年</text>
+              <text style="background-color:rgb(245,245,245);margin-right: 10px;padding: 5px;">学历不限</text>
+              <text style="background-color:rgb(245,245,245);margin-right: 10px;padding: 5px;">日常彩妆</text>
+              <text style="background-color:rgb(245,245,245);margin-right: 10px;padding: 5px;">全职兼职均可</text>
+          </view>
+          <view style="display: flex; align-items: center;  margin: 5px;">
+            <view>
+              <image src="/image/猫.jpg" style="float: left; width: 25px;height: 25px; border-radius: 50%; margin-right: 10px; margin-top: 10px"></image>
+              <text style="line-height: 50px;"> 任女士 运营专员</text>
+            </view>
+              <view style="margin-left: auto;">顺义区</view>
+            </view>
+        </view>
+      </view>  
+      </swiper-item>
+   </swiper>
+</view>
+

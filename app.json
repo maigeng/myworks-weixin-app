@@ -1,0 +1,76 @@
+{
+  "entryPagePath": "pages/find_job/find_job",
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/find_job/find_job",
+    "pages/addition/addition",
+    "pages/add_intention/add_intention",
+    "pages/map/map",
+    "pages/hot_part-job/hot_part-job",
+    "pages/new_publish/new_publish",
+    "pages/student_area/student_area",
+    "pages/search_salary/search_salary",
+    
+    "pages/result/result",
+    "pages/ques0/ques0",
+    "pages/ques1/ques1",
+    "pages/ques2/ques2",
+    "pages/ques3/ques3",
+    "pages/ques4/ques4",
+    "pages/ques5/ques5",
+    "pages/ques6/ques6",
+    "pages/uploadpage/uploadpage",
+    
+    "pages/communication/communication",
+    "pages/my_message/my_message",
+
+    "pages/mycenter/mycenter",
+    "pages/me/me",
+    "pages/information/information",
+    "pages/camera/camera",
+    "pages/privacy/privacy",
+    "pages/mytext/mytext",
+    "pages/advantage/advantage",
+
+    "pages/apiPage/apiPage"
+  ],
+  "window":{
+    
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "测测你的群面人设",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "selectedColor":"#37C2BC",
+    "list": [{
+      
+      "pagePath": "pages/find_job/find_job",
+      "text": "找工作",
+      "iconPath": "/image/bar/work_0.png",
+      "selectedIconPath": "/image/bar/work_1.png"
+    },
+    {
+      "pagePath": "pages/my_message/my_message",
+      "text": "消息",
+      "iconPath": "/image/bar/Message_0.png",
+      "selectedIconPath": "/image/bar/Message_1.png"
+    },
+    {
+      "pagePath": "pages/mycenter/mycenter",
+      "text": "我的",
+      "iconPath": "/image/bar/mine_0.png",
+      "selectedIconPath": "/image/bar/mine_1.png"
+    }
+  ]
+  },
+
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "permission": {
+    "scope.userLocation": {
+      "desc": "点击确定按钮来获取地理位置"
+    }
+  }
+}

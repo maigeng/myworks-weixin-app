@@ -1,0 +1,14 @@
+<!--pages/advantage/advantage.wxml-->
+<view style="font-size: 30px; font-weight: 600; margin-left: 20px;">
+  <text>我的优势</text>
+</view>
+<view style="margin-left: 30px; margin-bottom: 15px;">
+  <text>简单介绍自己，突出核心优势</text>
+</view>
+<view class="body">
+  <editor id="editor" class="containerr" placeholder="{{placeholder}}" bindready="Readyy" bindinput="Changee" >
+    </editor>
+<view>
+    <button bindtap="clickBtn" type="primary" style="margin-top:30px">提交</button>
+</view>
+</view>

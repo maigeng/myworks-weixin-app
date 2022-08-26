@@ -1,0 +1,36 @@
+<!--pages/ques1/ques1.wxml-->
+<view class="ques1">
+	<image src="/image/t1.png" mode="widthFix"/>
+	<view class="title">
+		{{question.title}}
+	</view>
+	<view class="answer-box">
+		<view class="answer">
+			<p
+			 wx:for="{{question.answer}}"
+			 wx:key="index"
+			 wx:for-item="value"
+			 data-index="{{key}}"
+			 wx:for-index="key"
+			 class="{{active==key?'active':null}}"
+			 bindtap="getAnswer"
+			>
+				{{key}} {{value}}
+			</p>
+
+		</view>
+	</view>
+	<view class="list">
+		<image src="/image/show.png" />
+		<image src="/image/noshow.png" />
+		<image src="/image/noshow.png" />
+		<image src="/image/noshow.png" />
+		<image src="/image/noshow.png" />
+		<image src="/image/noshow.png" />
+	</view>
+	<view class="logo">
+	
+		<p>快来测试吧！</p>
+	</view>
+</view>
+

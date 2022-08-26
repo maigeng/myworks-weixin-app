@@ -1,0 +1,5 @@
+/* pages/add_intention/add_intention.wxss */
+.out{
+  margin-top: 50px;
+  padding: 10%;
+}
